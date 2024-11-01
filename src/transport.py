@@ -11,10 +11,10 @@ class Car(ITransport):
     
     
     def start_engine(self):
-        ic("Машина заводится")
+        print("Машина заводится")
     
     def stop_engine(self):
-        ic("Машина заглушена")
+        print("Машина заглушена")
 
 
 class Bicycle(ITransport):
@@ -25,10 +25,10 @@ class Bicycle(ITransport):
     """
 
     def start_engine(self):
-        ic("Велосипед поехал")
+        print("Велосипед поехал")
     
     def stop_engine(self):
-        ic("Велосипед остановился")
+        print("Велосипед остановился")
 
 class Motorcycle(ITransport):
     """Мотоцикл
@@ -37,7 +37,7 @@ class Motorcycle(ITransport):
         ITransport (_type_): _description_
     """
     def start_engine(self):
-        ic("Мотоцикл завелся ")
+        print("Мотоцикл завелся ")
     
     def stop_engine(self):
-        ic("Мотоцикл остановился")
+        print("Мотоцикл остановился")
